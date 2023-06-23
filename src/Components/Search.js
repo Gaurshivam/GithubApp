@@ -20,7 +20,7 @@ const Search = () => {
       <Heading size='lg' color="green">Github Project</Heading>
       </Box>
       <Flex mb="10px">
-        <Input placeholder='Enter ' onChange={(e)=>{setUsername(e.target.value)}}/>
+        <Input placeholder='Enter Your Github Id' onChange={(e)=>{setUsername(e.target.value)}}/>
         <Button color='green' variant="outline" p="15px 18px" onClick={getUserData}>Search</Button>
       </Flex>
     </Box>
